@@ -8,7 +8,7 @@ public class Test {
         double arrBalance[] = new double[10];
         double amount;
         double monthlyRate = 0.0;
-        int id;
+        int id; 
         int accountId;
         String answer2;
         boolean check, answer;
@@ -171,7 +171,7 @@ class Account{
         balance = balance + amount;
         return balance;
     }
-    
+
     public void showData(Account arr [] , double monthlyRate){
         System.out.println("The Account data ");
         for (int i = 0; i < arr.length; i++) {
